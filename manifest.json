@@ -1,1 +1,39 @@
-{"name":"Legendado","id":"com.aiostreams.viren070.4c442cba-7e9","version":"2.17.5","description":"AIOStreams consolidates multiple Stremio addons and debrid services into a single, easily configurable addon. It allows highly customisable filtering, sorting, and formatting of results and supports proxying all your streams through MediaFlow Proxy or StremThru for improved compatibility and IP restriction bypassing.","catalogs":[{"type":"movie","id":"e7ae3b0.nfx","name":"Netflix"},{"type":"series","id":"e7ae3b0.nfx","name":"Netflix"},{"type":"movie","id":"e7ae3b0.hbm","name":"HBO Max"},{"type":"series","id":"e7ae3b0.hbm","name":"HBO Max"},{"type":"movie","id":"e7ae3b0.dnp","name":"Disney+"},{"type":"series","id":"e7ae3b0.dnp","name":"Disney+"},{"type":"movie","id":"e7ae3b0.amp","name":"Prime Video"},{"type":"series","id":"e7ae3b0.amp","name":"Prime Video"},{"type":"movie","id":"e7ae3b0.atp","name":"Apple TV+"},{"type":"series","id":"e7ae3b0.atp","name":"Apple TV+"}],"resources":[{"name":"subtitles","types":["movie","series","subtitles"],"idPrefixes":["tt","kitsu"]},{"name":"stream","types":["movie","series","anime"],"idPrefixes":["tt","kitsu"]},{"name":"catalog","types":["movie","series"],"idPrefixes":["tt"]}],"types":["movie","series","subtitles","anime"],"logo":"https://raw.githubusercontent.com/Viren070/AIOStreams/refs/heads/main/packages/frontend/public/logo.png","behaviorHints":{"configurable":true,"configurationRequired":false},"addonCatalogs":[],"stremioAddonsConfig":{"issuer":"https://stremio-addons.net","signature":"eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..acmV1DfOh52nwT-O3myHNg.Vb_c3MkkeLV9Nb4mBvEmbYoRcKh9I1CIxmLAH0CJLQaXBeiKzfT_JjIOCKw53qkossEchr768t2n3sS290hwOHE3HA6rhRwWRkotlSJU9lcMzcbxCiWezF8qr9ZV6MzO.48H-f2Psh4FE0CWD3uVDUA"}}
+{
+  "name": "Legendado",
+  "id": "com.Legendado.august.4c442cba-7e9",
+  "version": "1.0.0",
+  "description": "Conteudo legendado",
+  "catalogs": [
+    { "type": "movie", "id": "e7ae3b0.nfx", "name": "Netflix" },
+    { "type": "series", "id": "e7ae3b0.nfx", "name": "Netflix" },
+    { "type": "movie", "id": "e7ae3b0.hbm", "name": "HBO Max" },
+    { "type": "series", "id": "e7ae3b0.hbm", "name": "HBO Max" },
+    { "type": "movie", "id": "e7ae3b0.dnp", "name": "Disney+" },
+    { "type": "series", "id": "e7ae3b0.dnp", "name": "Disney+" },
+    { "type": "movie", "id": "e7ae3b0.amp", "name": "Prime Video" },
+    { "type": "series", "id": "e7ae3b0.amp", "name": "Prime Video" },
+    { "type": "movie", "id": "e7ae3b0.atp", "name": "Apple TV+" },
+    { "type": "series", "id": "e7ae3b0.atp", "name": "Apple TV+" }
+  ],
+  "resources": [
+    {
+      "name": "subtitles",
+      "types": ["movie", "series", "subtitles"],
+      "idPrefixes": ["tt", "kitsu"]
+    },
+    {
+      "name": "stream",
+      "types": ["movie", "series", "anime"],
+      "idPrefixes": ["tt", "kitsu"]
+    },
+    { "name": "catalog", "types": ["movie", "series"], "idPrefixes": ["tt"] }
+  ],
+  "types": ["movie", "series", "subtitles", "anime"],
+  "logo": "https://raw.githubusercontent.com/Viren070/AIOStreams/refs/heads/main/packages/frontend/public/logo.png",
+  "behaviorHints": { "configurable": true, "configurationRequired": false },
+  "addonCatalogs": [],
+  "stremioAddonsConfig": {
+    "issuer": "https://stremio-addons.net",
+    "signature": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..acmV1DfOh52nwT-O3myHNg.Vb_c3MkkeLV9Nb4mBvEmbYoRcKh9I1CIxmLAH0CJLQaXBeiKzfT_JjIOCKw53qkossEchr768t2n3sS290hwOHE3HA6rhRwWRkotlSJU9lcMzcbxCiWezF8qr9ZV6MzO.48H-f2Psh4FE0CWD3uVDUA"
+  }
+}
